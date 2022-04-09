@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ShortcutsDemo</string>
+    <string name="test">测试一下</string>
+    <string name="go_Second">go Second</string>
 </resources>

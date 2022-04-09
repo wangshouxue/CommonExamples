@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    shortcut越靠下显示越靠前-->
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon_shortcut_post"
+        android:shortcutId="test"
+        android:shortcutShortLabel="@string/test">
+        <!--shortcutShortLabel 快捷方式的名称 此处不能直接使用文字-->
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.wsx.shortcutsdemo"
+            android:targetClass="com.wsx.shortcutsdemo.MainActivity"/>
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.wsx.shortcutsdemo"
+            android:targetClass="com.wsx.shortcutsdemo.Second"/>
+<!--        点击快捷入口会显示Test，返回会显示Second,再返回会显示MainActivity
+            即最后一个intent就是快捷方式显示的页面，前面的都是回退栈-->
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.wsx.shortcutsdemo"
+            android:targetClass="com.wsx.shortcutsdemo.Test"/>
+    </shortcut>
+    <shortcut
+        android:enabled="true"
+        android:icon="@drawable/icon_shortcut_pai"
+        android:shortcutId="second"
+        android:shortcutShortLabel="@string/go_Second">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.wsx.shortcutsdemo"
+            android:targetClass="com.wsx.shortcutsdemo.Second"/>
+    </shortcut>
+</shortcuts>
