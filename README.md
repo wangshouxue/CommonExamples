@@ -9,9 +9,13 @@
 
 #### privacydialogdemo
  隐私协议组件
+ ![img_1.png](img_1.png)
 
 #### shortcutsdemo
  桌面APP图标长按快捷方式入口
+ ![img.png](img.png)
 
 #### autosizedemo
  autosize在activity，fragment，dialog中的使用以及改变显示字体
+
+#### ThreadPoolExecutorDemo
