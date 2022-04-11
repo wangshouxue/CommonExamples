@@ -14,4 +14,4 @@
  桌面APP图标长按快捷方式入口
 
 #### autosizedemo
- autosize在activity，fragment，dialog中的使用
+ autosize在activity，fragment，dialog中的使用以及改变显示字体

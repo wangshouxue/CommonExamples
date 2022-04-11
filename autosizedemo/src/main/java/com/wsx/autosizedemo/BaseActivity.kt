@@ -14,11 +14,11 @@ import me.jessyan.autosize.AutoSizeConfig
  */
 abstract class BaseActivity:AppCompatActivity() {
     private var mIsUseAutoSize=true
+    private var font=1f
 
     fun setIsUseAutoSize(mIsUseAutoSize:Boolean){
         this.mIsUseAutoSize=mIsUseAutoSize
     }
-
     override fun onCreateView(name: String, context: Context, attrs: AttributeSet): View? {
         if (mIsUseAutoSize) {
             val initDensity: Float = AutoSizeConfig.getInstance().getInitDensity()
@@ -29,6 +29,11 @@ abstract class BaseActivity:AppCompatActivity() {
                 AutoSize.autoConvertDensityOfGlobal(this)
             }
         }
+        val sp=getSharedPreferences("sxdemo", MODE_PRIVATE)
+        font=sp.getFloat("fontsize",1f)
+        //可修改项目中的字体大小
+        resources.displayMetrics.scaledDensity = AutoSizeConfig.getInstance().initDensity * font
+
         return super.onCreateView(name, context, attrs)
     }
 }
