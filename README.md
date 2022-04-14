@@ -7,6 +7,9 @@
 #### mvpdemo
  mvp小示例
 
+#### mvvmdemo
+ mvvm小示例
+
 #### privacydialogdemo
  隐私协议组件
  ![img_1.png](img_1.png)
