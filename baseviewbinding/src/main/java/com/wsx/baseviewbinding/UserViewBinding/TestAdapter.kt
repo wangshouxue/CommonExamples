@@ -23,7 +23,7 @@ class TestAdapter: RecyclerView.Adapter<TestAdapter.MyHolder>() {
     }
 
     override fun getItemCount(): Int {
-        return 1
+        return 3
     }
 
     inner class MyHolder(binging:ItemAdapterBinding):RecyclerView.ViewHolder(binging.root){

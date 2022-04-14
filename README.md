@@ -2,7 +2,7 @@
 常用小示例
 
 #### baseviewbinging
- viewbinging的基本使用
+ viewbinging的基本使用,包括include，merge，ViewStub标签，fragment,adapter,dialog,自定义view
 
 #### mvpdemo
  mvp小示例

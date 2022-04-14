@@ -46,6 +46,13 @@ class TestActivity :AppCompatActivity(){
             stubBinding?.iv?.setBackgroundColor(Color.MAGENTA)
         }
 
+        mergeBinding.tv2.setOnClickListener {
+            MyDialog(this).show()
+        }
+//        stubBinding?.iv?.setOnClickListener {
+            binging.root.addView(MyView(this),binging.root.childCount-1)
+//        }
+
         supportFragmentManager.beginTransaction().replace(binging.fl.id, TestFragment()).commitNow()
     }
 }
