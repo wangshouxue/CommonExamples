@@ -1,8 +1,8 @@
 package com.wsx.mvvmdemo.viewmodel
 
 import android.app.Application
-import android.widget.Toast
 import androidx.lifecycle.AndroidViewModel
+import com.wsx.mvvmdemo.LoginObserver
 import com.wsx.mvvmdemo.models.User
 
 /**
@@ -12,20 +12,27 @@ import com.wsx.mvvmdemo.models.User
  */
 class MainViewModel(application: Application) :AndroidViewModel(application){
     private var app: Application
+    private var user: User?=null
+
     init {
         this.app=application
     }
-    private var user: User=User()
 
-    fun login(name:String,pwd:String){
-        Thread.sleep(3000)
-        if (name.equals("wsx")&&pwd.equals("123456")){
+    fun login(username:String,pwd:String){
+        Thread.sleep(500)
+        if (username.equals("wsx")&&pwd.equals("123456")){
             //登录成功
-            user.name="wsx"
-            user.age=18
-            user.sex="女"
+            user=User()
+            user?.apply {
+                name="wsx"
+                age=18
+                sex="女"
+            }
+            LoginObserver.setIsLoginSuccess(true)
         }else{
-            Toast.makeText(app,"账号或密码错误",Toast.LENGTH_SHORT).show()
+            LoginObserver.setIsLoginSuccess(false)
         }
     }
+
+
 }

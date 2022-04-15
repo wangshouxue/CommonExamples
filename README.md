@@ -8,7 +8,7 @@
  mvp小示例
 
 #### mvvmdemo
- mvvm小示例
+ mvvm架构的登录小示例
 
 #### privacydialogdemo
  隐私协议组件
