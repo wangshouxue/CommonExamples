@@ -27,8 +27,10 @@ class TestFragment:Fragment() {
     }
 
     fun init() {
-        val manager=LinearLayoutManager(context, RecyclerView.VERTICAL,false)
+//        val manager=LinearLayoutManager(context, RecyclerView.VERTICAL,false)
+        val manager=AutoLayoutManager()
         binding?.rvFg?.layoutManager=manager
+        binding?.rvFg?.addItemDecoration(SpaceItemDecoration(20))
         val myAapter=TestAdapter()
         binding?.rvFg?.adapter=myAapter
     }
