@@ -23,6 +23,7 @@
  autosize在activity，fragment，dialog中的使用以及改变显示字体
 
 #### imagedemo
- 图片实现圆角方式
+ 图片实现圆角方式：
+ 1.ViewOutlineProvider
 
 #### ThreadPoolExecutorDemo
