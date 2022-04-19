@@ -13,5 +13,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         binding.iv1.setImageResource(R.mipmap.img)
         CornerViewOutlineProvider.clipView(binding.iv1,50)
+
     }
+
+
 }
