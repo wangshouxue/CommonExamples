@@ -28,4 +28,7 @@
 
 #### servicedemo
 
+#### animatordemo
+ 常用属性动画示例
+
 #### ThreadPoolExecutorDemo
