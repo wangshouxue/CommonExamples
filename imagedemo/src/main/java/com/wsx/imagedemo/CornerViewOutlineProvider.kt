@@ -10,11 +10,6 @@ import android.view.ViewOutlineProvider
  * @description:类作用
  */
 class CornerViewOutlineProvider private constructor(private val radius: Float) : ViewOutlineProvider() {
-
-    override fun getOutline(view: View, outline: Outline) {
-        outline.setRoundRect(0, 0, view.width, view.height, radius)
-    }
-
     companion object {
         @JvmStatic
         fun clipView(view: View, radius: Int) {
@@ -23,4 +18,7 @@ class CornerViewOutlineProvider private constructor(private val radius: Float) :
         }
     }
 
+    override fun getOutline(view: View, outline: Outline) {
+        outline.setRoundRect(0, 0, view.width, view.height, radius)
+    }
 }

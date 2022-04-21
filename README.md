@@ -24,9 +24,13 @@
 
 #### imagedemo
  图片实现圆角方式：
- 1.ViewOutlineProvider
+ 1.clipPath
+ 2.BitmapShader
+ 3.Xfermode
+ ViewOutlineProvider 针对非image控件实现圆角
 
 #### servicedemo
+bindService代码实现以及安装apk示例
 
 #### animatordemo
  常用属性动画示例

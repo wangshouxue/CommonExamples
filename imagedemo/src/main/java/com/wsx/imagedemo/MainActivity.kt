@@ -11,8 +11,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        binding.iv1.setImageResource(R.mipmap.img)
-        CornerViewOutlineProvider.clipView(binding.iv1,50)
+        CornerViewOutlineProvider.clipView(binding.tv,50)
 
     }
 
