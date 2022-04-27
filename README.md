@@ -38,6 +38,6 @@ https://juejin.cn/post/6951377130777215012
 
 #### animatordemo
  常用属性动画示例
- 越界动画效果
+ 仿微信边界回弹动画效果
 
 #### ThreadPoolExecutorDemo
