@@ -32,7 +32,12 @@
 #### servicedemo
 bindService代码实现以及安装apk示例
 
+#### databasedemo
+https://juejin.cn/post/6951377130777215012
+数据库存储，greendao,room使用示例
+
 #### animatordemo
  常用属性动画示例
+ 越界动画效果
 
 #### ThreadPoolExecutorDemo
