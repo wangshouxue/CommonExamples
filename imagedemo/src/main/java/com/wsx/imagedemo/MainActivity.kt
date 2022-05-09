@@ -11,8 +11,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding= ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-        CornerViewOutlineProvider.clipView(binding.tv,50)
-
+        CornerViewOutlineProvider.clipView(binding.iv,60)
+        CornerViewOutlineProvider.clipView(binding.tv,60)
     }
 
 

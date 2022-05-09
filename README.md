@@ -1,6 +1,10 @@
 # CommonExamples
 常用小示例
 
+#### app下
+实现跑马灯首尾相接的效果
+9c010ea817ff290351d9d1033e386c73.mov
+
 #### baseviewbinging
  viewbinging的基本使用(包含include，merge，ViewStub标签，fragment,adapter,dialog,自定义view场景)
  以及recycleview自定义实现流式布局
