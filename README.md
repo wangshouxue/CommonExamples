@@ -31,7 +31,14 @@
  1.clipPath
  2.BitmapShader
  3.Xfermode
- ViewOutlineProvider 针对非image控件实现圆角
+ 4.ViewOutlineProvider
+
+#### rvdemo
+recycleview内容显示在底部效果以及类似打赏榜view叠落样式
+正常显示：
+11652341059_.pic.jpg
+效果显示：
+21652341060_.pic.jpg
 
 #### servicedemo
 bindService代码实现以及安装apk示例
