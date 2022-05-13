@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.drawable.GradientDrawable
 import android.net.Uri
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -64,10 +65,15 @@ class RvAdapter (private val mContext: Context, list:MutableList<String>,type:In
         return list.size
     }
 
-    inner class ItemHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        var tv: TextView?=null
+    inner class ItemHolder(itemView: View) : RecyclerView.ViewHolder(itemView) ,View.OnClickListener{
+        var tv: TextView
         init {
             tv = itemView.findViewById(R.id.tv)
+            tv.setOnClickListener(this)
+        }
+
+        override fun onClick(p0: View?) {
+            Log.i("===",list[adapterPosition])
         }
     }
 
