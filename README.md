@@ -51,4 +51,8 @@ https://juejin.cn/post/6951377130777215012
  常用属性动画示例
  仿微信边界回弹动画效果
 
+#### scrolltv
+用EditText或自定义TextView实现 可固定行数显示，超出内容上下滑动的TextView效果
+1652774180414686.mp4
+
 #### ThreadPoolExecutorDemo
