@@ -55,4 +55,7 @@ https://juejin.cn/post/6951377130777215012
 用EditText或自定义TextView实现 可固定行数显示，超出内容上下滑动的TextView效果
 1652774180414686.mp4
 
+#### regdemo
+识别字符串中的中文和数字用不同样式显示
+
 #### ThreadPoolExecutorDemo
