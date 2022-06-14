@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         val index = des.indexOf("+")
         //+
         if (des.contains("+")) {
+            //虽然和nameSize1一样，但不能复用nameSize1，负责此处不生效
             val nameSize2: AbsoluteSizeSpan = AbsoluteSizeSpan(33)
             spannableStringBuilder.setSpan(
                 nameSize2,
