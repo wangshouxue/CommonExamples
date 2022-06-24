@@ -6,5 +6,16 @@
         <attr name="stay_time" format="integer" />
         <attr name="isMarquee" format="boolean"/>
     </declare-styleable>
+    <declare-styleable name="GradientColorButton">
+        <attr name="text" format="string" />
+        <attr name="isBold" format="boolean" />
+        <attr name="textColor" format="integer" />
+        <attr name="textsize" format="dimension"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="radius" format="dimension"/>
+        <attr name="colorStart" format="integer" />
+        <attr name="colorCenter" format="integer" />
+        <attr name="colorEnd" format="integer" />
+    </declare-styleable>
 
 </resources>

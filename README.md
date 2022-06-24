@@ -4,6 +4,8 @@
 #### app下
 实现跑马灯首尾相接的效果
 9c010ea817ff290351d9d1033e386c73.mov
+自定义三色渐变圆角按钮
+![img_2.png](img_2.png)
 
 #### baseviewbinging
  viewbinging的基本使用(包含include，merge，ViewStub标签，fragment,adapter,dialog,自定义view场景)
