@@ -17,5 +17,15 @@
         <attr name="colorCenter" format="integer" />
         <attr name="colorEnd" format="integer" />
     </declare-styleable>
-
+    <declare-styleable name="BubbleImageView">
+        <attr name="triangle_marginTop" format="dimension" />
+        <attr name="triangle_height" format="dimension" />
+        <attr name="triangle_width" format="dimension" />
+        <attr name="rect_radius" format="dimension" />
+        <attr name="shadow_color" format="color" />
+        <attr name="direction" format="integer">
+            <enum name="left" value="1"></enum>
+            <enum name="right" value="2"></enum>
+        </attr>
+    </declare-styleable>
 </resources>
