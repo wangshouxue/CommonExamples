@@ -14,6 +14,10 @@
  viewbinging的基本使用(包含include，merge，ViewStub标签，fragment,adapter,dialog,自定义view场景)
  以及recycleview自定义实现流式布局
 
+#### cropimage
+裁剪图片功能
+![](cropimage/21666579759_.pic.jpg)
+
 #### mvpdemo
  mvp小示例
 
