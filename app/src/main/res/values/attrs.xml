@@ -28,4 +28,12 @@
             <enum name="right" value="2"></enum>
         </attr>
     </declare-styleable>
+    <declare-styleable name="MyCheckView">
+        <attr name="m_blockBg" format="reference" /><!--滑块背景图片-->
+        <attr name="m_blockColor" format="color" /><!--滑块颜色-->
+        <attr name="m_blockShadowLayer" format="color" /><!--滑块阴影颜色-->
+        <attr name="m_proColor" format="color" /><!--进度条颜色-->
+        <attr name="m_recColor" format="color" /><!--矩形背景色-->
+        <attr name="m_circleSize" format="integer" /><!--圆角角度值-->
+    </declare-styleable>
 </resources>

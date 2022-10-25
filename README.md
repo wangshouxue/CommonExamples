@@ -8,6 +8,8 @@
 ![img_2.png](img_2.png)
 聊天界面的气泡状的ImageView
 ![气泡状ImageView](app/img.png)
+滑动验证效果的自定义view-MyCheckView
+![img_3.png](img_3.png)
 
 
 #### baseviewbinging
