@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/mvp_pager2"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+    <!--加载更多View-->
+    <LinearLayout
+        android:id="@+id/load_more_container"
+        android:layout_width="120dp"
+        android:layout_height="400dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/black">
+
+        <ImageView
+            android:id="@+id/iv_pull"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:src="@mipmap/icon_arrow_left" />
+
+        <TextView
+            android:id="@+id/tv_tips"
+            android:layout_width="16dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:gravity="center_vertical"
+            android:text="滑动查看图文详情"
+            android:textColor="#ffffff"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+
+</merge>
