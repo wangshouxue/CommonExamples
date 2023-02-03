@@ -71,6 +71,11 @@ https://juejin.cn/post/6951377130777215012
 
 #### scrollslidetop
 
+#### tileservicedemo
+在通知栏上自定义快捷开关
+
+#### clearscreendemo
+仿直播左/右滑清屏
 
 #### regdemo
 识别字符串中的中文和数字用不同样式显示

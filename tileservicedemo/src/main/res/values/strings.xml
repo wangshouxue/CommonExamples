@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TileServiceDemo</string>
+    <string name="open_app">打开demo</string>
+</resources>
