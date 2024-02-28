@@ -6,6 +6,7 @@ import android.service.quicksettings.Tile
 import android.service.quicksettings.TileService
 
 /**
+ * 在通知栏上自定义快捷开关
  * @Description: https://juejin.cn/post/7190663063631036473
  */
 class MyTileService: TileService() {

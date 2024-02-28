@@ -14,7 +14,7 @@ import android.widget.FrameLayout;
 import java.util.ArrayList;
 
 /**
- * @Description: 类作用描述
+ * @Description: 仿直播左/右滑清屏
  */
 public class ClearScreenLayout extends FrameLayout {
     private int mDownX;     // 手指按下的x轴位置
