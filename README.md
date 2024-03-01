@@ -29,6 +29,9 @@
 #### mynetdemo
 Rxjava+OKhttp+Retrofit小示例
 
+#### myaidldemo1,myaidldemo2
+AIDL实现应用A和应用B通信小示例
+
 #### privacydialogdemo
  隐私协议组件
  ![img_1.png](img_1.png)
