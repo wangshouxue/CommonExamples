@@ -12,6 +12,7 @@
             android:name=".MyService"
             android:enabled="true"
             android:exported="true">
+<!--            intent-filter也可不配置，其他应用通过包名来绑定-->
             <intent-filter>
                 <action android:name="com.example.myaidldemo2.MyService"/>
                 <category android:name="android.intent.category.DEFAULT"/>
