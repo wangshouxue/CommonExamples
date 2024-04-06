@@ -57,6 +57,9 @@ recycleview内容显示在底部效果以及类似打赏榜view叠落样式
 效果显示：
 21652341060_.pic.jpg
 
+侧滑删除菜单效果的列表
+1712382998657.jpg
+
 #### servicedemo
 bindService代码实现以及安装apk示例
 

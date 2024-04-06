@@ -20,6 +20,13 @@ class MainActivity : AppCompatActivity() {
         val list= mutableListOf("我是1呀","我是2呀","我是3呀","我是4呀")
         val data=list
 
+        val rv = findViewById<RecyclerView>(R.id.rv)
+        val manager= LinearLayoutManager(this,RecyclerView.VERTICAL,false)
+        rv.layoutManager=manager
+        val adapter= MyAdapter(this)
+        rv.adapter=adapter
+        adapter.list=data
+
         val manager1=LinearLayoutManager(this, HORIZONTAL,true)
         rv1.layoutManager=manager1
         data.reverse()
