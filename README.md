@@ -53,12 +53,17 @@ AIDL实现应用A和应用B通信小示例
 #### rvdemo
 recycleview内容显示在底部效果以及类似打赏榜view叠落样式
 正常显示：
-11652341059_.pic.jpg
+![11652341059_.pic.jpg](rvdemo%2F11652341059_.pic.jpg)
 效果显示：
-21652341060_.pic.jpg
+![21652341060_.pic.jpg](rvdemo%2F21652341060_.pic.jpg)
 
 侧滑删除菜单效果的列表
-1712382998657.jpg
+![1712382998657.jpg](rvdemo%2F1712382998657.jpg)
+
+recycleview嵌套recycleview，父，子均可侧滑删除菜单效果的列表
+![img.png](rvdemo%2Fimg.png)
+![img_1.png](rvdemo%2Fimg_1.png)
+
 
 #### servicedemo
 bindService代码实现以及安装apk示例

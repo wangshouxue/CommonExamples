@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="15dp"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/material_dynamic_primary80"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp">
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:text="TextView"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/tv"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentRight="true"
+                android:text="expand"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:id="@+id/etv"
+                android:gravity="center"
+                android:textColor="@color/black"/>
+        </RelativeLayout>
+<!--        <androidx.recyclerview.widget.RecyclerView-->
+        <com.wsx.rvdemo.SlideRecyclerView
+            android:id="@+id/rv_child"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:nestedScrollingEnabled="false"
+            android:visibility="gone"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="10dp"
+        android:text="删除"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:id="@+id/tvd"
+        android:background="@color/design_default_color_secondary_variant"
+        android:gravity="center"
+        android:textColor="@color/white"/>
+</LinearLayout>
