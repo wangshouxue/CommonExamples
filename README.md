@@ -4,7 +4,8 @@
 #### app下
 实现跑马灯首尾相接的效果
 9c010ea817ff290351d9d1033e386c73.mov
-自定义三色渐变圆角按钮
+自定义三
+色渐变圆角按钮
 ![img_2.png](img_2.png)
 聊天界面的气泡状的ImageView
 ![气泡状ImageView](app/img.png)
@@ -93,5 +94,10 @@ https://juejin.cn/post/6951377130777215012
 
 #### regdemo
 识别字符串中的中文和数字用不同样式显示
+
+#### swipeback
+仿系统级的侧滑返回
+![becbc4e6a4c052e908ac184541c58dea.jpg](swipeback%2Fbecbc4e6a4c052e908ac184541c58dea.jpg)
+[becbc4e6a4c052e908ac184541c58dea.mp4](swipeback%2Fbecbc4e6a4c052e908ac184541c58dea.mp4)
 
 #### ThreadPoolExecutorDemo
