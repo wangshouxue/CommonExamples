@@ -66,9 +66,12 @@ recycleview嵌套recycleview，父，子均可侧滑删除菜单效果的列表
 ![img.png](rvdemo%2Fimg.png)
 ![img_1.png](rvdemo%2Fimg_1.png)
 
-两个recycleview跨域拖拽
+两个recycleview跨域拖拽-DragActivity
 ![img_2.png](rvdemo%2Fimg_2.png)
 [588bdc919a81b473a039dd81da5563e3.mp4](rvdemo%2F588bdc919a81b473a039dd81da5563e3.mp4)
+
+RecyclerView创建从右向左填充的网格-RtlRecycleViewActivity
+![img_3.png](rvdemo%2Fimg_3.png)
 
 #### servicedemo
 bindService代码实现以及安装apk示例

@@ -6,11 +6,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".DragActivity">
+    <Button
+        android:id="@+id/bt"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="go RecyclerView创建从右向左填充的网格"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"/>
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_top"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/design_default_color_primary"
+        android:layout_marginTop="50dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"/>

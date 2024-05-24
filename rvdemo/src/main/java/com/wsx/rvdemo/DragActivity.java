@@ -25,6 +25,12 @@ public class DragActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_drag);
+        findViewById(R.id.bt).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(DragActivity.this, RtlRecycleViewActivity.class));
+            }
+        });
         rvTop=findViewById(R.id.rv_top);
         rvBottom=findViewById(R.id.rv_bottom);
 
