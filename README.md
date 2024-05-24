@@ -33,6 +33,7 @@ Rxjava+OKhttp+Retrofit小示例
 #### myaidldemo1,myaidldemo2
 AIDL实现应用A和应用B通信小示例
 [1709260171832543.mp4](..%2F..%2F..%2FLibrary%2FContainers%2Fcom.tencent.xinWeChat%2FData%2FLibrary%2FApplication%20Support%2Fcom.tencent.xinWeChat%2F2.0b4.0.9%2F9ec0c2d9d7a07a22546308517efad2d8%2FMessage%2FMessageTemp%2Fc52d8f9c56fa39a9cf8b20287b01b5ba%2FVideo%2F1709260171832543.mp4)
+
 #### privacydialogdemo
  隐私协议组件
  ![img_1.png](img_1.png)
@@ -65,6 +66,9 @@ recycleview嵌套recycleview，父，子均可侧滑删除菜单效果的列表
 ![img.png](rvdemo%2Fimg.png)
 ![img_1.png](rvdemo%2Fimg_1.png)
 
+两个recycleview跨域拖拽
+![img_2.png](rvdemo%2Fimg_2.png)
+[588bdc919a81b473a039dd81da5563e3.mp4](rvdemo%2F588bdc919a81b473a039dd81da5563e3.mp4)
 
 #### servicedemo
 bindService代码实现以及安装apk示例
