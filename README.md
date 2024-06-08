@@ -63,6 +63,7 @@ recycleview内容显示在底部效果以及类似打赏榜view叠落样式
 ![1712382998657.jpg](rvdemo%2F1712382998657.jpg)
 
 recycleview嵌套recycleview，父，子均可侧滑删除菜单效果的列表
+注：若rvbody的item里包含rv也带滑动菜单，则子rv用ChildSlideRecyclerView可解决滑动冲突，类似于通知中心分组的通知效果，父子均有自己的侧滑删除菜单
 ![img.png](rvdemo%2Fimg.png)
 ![img_1.png](rvdemo%2Fimg_1.png)
 
