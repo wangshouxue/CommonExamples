@@ -21,5 +21,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         android:layout_marginTop="50dp"/>
+<!--    若rvbody的item里包含rv也带滑动菜单，则子rv用ChildSlideRecyclerView可解决滑动冲突，类似于通知中心分组的通知效果，父子均有自己的侧滑删除菜单-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
